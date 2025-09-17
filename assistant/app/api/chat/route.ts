@@ -1,6 +1,5 @@
-// Función para manejar las solicitudes a la ruta /api/chat
 import { convertToModelMessages, streamText, UIMessage } from 'ai';
-// Importar el cliente de Google AI SDK
+
 import { google } from '@ai-sdk/google';
 
 // Ruta para manejar las solicitudes POST a /api/chat
